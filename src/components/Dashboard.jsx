@@ -99,8 +99,8 @@ const Dashboard = () => {
     const options = {
       method: "GET",
       headers: {
-        "x-rapidapi-key": "7eb7e70eddmsh27ca403da99564dp1f2eacjsn910c4a6c3218",
-        "x-rapidapi-host": "trueway-geocoding.p.rapidapi.com",
+        "x-rapidapi-key": "7a8687a111msh0adaaa81ebde21dp1e556ajsn85b9f867dcfd",
+        "x-rapidapi-host": "open-weather13.p.rapidapi.com",
       },
     };
 
@@ -158,7 +158,7 @@ const Dashboard = () => {
         Get Current Location and Fetch Weather
       </button>
 
-      <form onSubmit={handleSearch} className="">
+      <form onSubmit={handleSearch} className="z-2">
         <TextField
           fullWidth
           label="City"
